@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: url(./imgi_1_skye.jpg) no-repeat;
+    background-size: cover;
+}
+img {
+    width: 100%;
+}
+.aeroplane {
+    position: fixed;
+    animation-name: aeroplane;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+}
+@keyframes aeroplane {
+    from {
+        transform: translateX(2000px);
+    }
+    to {
+        transform: translateX(-300px);
+    }
+}
+.helicopter {
+    position: fixed;
+    animation-name: helicopter;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+}
+@keyframes helicopter {
+    from {
+        transform: translateX(2000px);
+    }
+    to {
+        transform: translateX(-300px);
+    }
+}
+.second-div {
+    background-color: #58f758;
+    width: 100%;
+    height: 20px;
+    margin-top: -35px;
+    img {
+        width: 10%;
+        position: absolute;
+        top: 20%;
+    }
+    /* margin: 8px; */
+}
+.road {
+    height: 25vh;
+    width: 100vw;
+    /* position: relative; */
+}
+.girl {
+     position: absolute;
+    animation-name: girl;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+}
+@keyframes girl {
+    from {
+        transform: translateX(200px);
+    }
+    to {
+        transform: translateX(2000px);
+    }
+}
+.boy {
+     position: fixed;
+    animation-name: boy;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+}
+@keyframes boy {
+    from {
+        transform: translateX(2000px);
+    }
+    to {
+        transform: translateX(300px);
+    }
+}
+.road-one {
+    img {
+        width: 10%;
+        position: absolute;
+    }
+}
+.bike {
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-name: bike;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    top: 35%;
+}
+@keyframes bike {
+    from{
+        transform: translateX(1300px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+.taxi {
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-name: taxi;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    top: 39%;
+}
+@keyframes taxi {
+    from{
+        transform: translateX(1300px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+.truck {
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-name: truck;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    top: 40%;
+}
+@keyframes truck {
+    from{
+        transform: translateX(1300px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+.middle-road {
+    img {
+        width: 10%;
+        
+    }
+}
+.road-two
+ {
+    img {
+        width: 10%;
+        position: absolute;
+    }
+}
+.bicycle {
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-name: bicycle;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    bottom: -5%;
+}
+@keyframes bicycle {
+    from{
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translateX(2000px);
+    }
+}
+.trailer {
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-name: trailer;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    bottom: -3%;
+}
+@keyframes trailer {
+    from{
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translateX(1500px);
+    }
+}
+.sport-car {
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-name: sport-car;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    bottom: -3%;
+}
+@keyframes sport-car {
+    from{
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translateX(4000px);
+    }
+}
+.police-car {
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-name: police-car;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    bottom: -1%;
+}
+@keyframes police-car {
+    from{
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translateX(2500px);
+    }
+}
+
+
+
