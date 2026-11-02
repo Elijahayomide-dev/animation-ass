@@ -158,8 +158,15 @@ img {
 .middle-road {
     img {
         width: 10%;
-        
     }
+}
+.street-light {
+    position: absolute;
+    top: 50%;
+}
+.sign-post{
+    position: absolute;
+    top: 63%;
 }
 .road-two
  {
